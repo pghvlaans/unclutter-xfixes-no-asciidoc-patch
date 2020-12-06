@@ -52,3 +52,12 @@
  xfixes
  xi
 -asciidoc (make)
+--- ./.travis.yml
+@@ -6,7 +6,6 @@
+         - master
+ install:
+     - sudo apt-get update
+-    - sudo apt-get install asciidoc
+     - sudo apt-get install libx11-dev libxi-dev libxfixes-dev libev-dev xsltproc
+ script:
+     - make -j8 all
