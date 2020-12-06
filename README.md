@@ -3,6 +3,6 @@ This patch removes asciidoc (which has many dependencies in some distributions) 
 
 DEPENDENCIES and Makefile will be altered.
 
-To use the patch, move it into the root directory for unclutter-xfixes. Then, run `patch -p0 <patch.txt`. From here, it will be possible to install unclutter without installing asciidoc.
+To use the patch, move it into the root directory for unclutter-xfixes. Then, run `patch -p0 <patch.txt` while inside that directory. From here, it will be possible to install unclutter without installing asciidoc.
 
 The patch is currrent to unclutter-xfixes v.1.5 (as of December 5th, 2020)
